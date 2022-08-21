@@ -1,0 +1,85 @@
+@media (min-width:768px){
+    .main-title {
+        font-size: 100px;
+        margin-top: 40vh;
+    }
+    .section {
+        height: 60px;
+        line-height: 60px;
+    }
+
+}
+
+@media (min-width:1200px){
+    .main-title {
+        font-size: 120px;
+        margin-top: 40vh;
+    }
+
+    .section {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:767px){
+    img {
+        border-radius: 20px;
+        width: 180px;
+        height: 180px;
+        box-shadow: 5px 5px 5px grey;
+    }
+    .human-content {
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .human-content2 {
+        flex-direction: column-reverse;
+    }
+    .mybox-hiro{
+        font-size: 15px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .mybox{
+        font-size: 15px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .hiro-img {
+        margin-right: 0px;
+    }
+    .suna-img {
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width:768px) and ( max-width:1023px){
+    .human-content {
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .human-content2 {
+        flex-direction: column-reverse;
+    }
+    .mybox-hiro{
+        font-size: 20px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .mybox{
+        font-size: 20px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .hiro-img {
+        margin-right: 0px;
+    }
+    .suna-img {
+        margin-left: 0px;
+    }
+
+}
+
