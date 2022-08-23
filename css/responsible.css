@@ -29,7 +29,7 @@
         box-shadow: 5px 5px 5px grey;
     }
     .human-content {
-        margin-top: 40px;
+        margin-top: 10px;
         flex-direction: column;
         align-items: center;
     }
@@ -54,8 +54,14 @@
     }
     .section1 {
         margin-top: 52vh;
-    } 
-
+    }
+    .shape-2008{
+        height: 120px;
+    }
+    .suna-img {
+        margin-top: 50px;
+    }
+        
 }
 
 @media (min-width:768px) and ( max-width:1023px){
