@@ -6,7 +6,7 @@ window.onload = function() {
       responsive: [
         { breakpoint: 400,
             options: {
-                sizeVariations: 50
+                sizeVariations: 40
             }
         }
       ]
