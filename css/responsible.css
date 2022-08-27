@@ -19,6 +19,11 @@
     .section {
         font-size: 20px;
     }
+
+    iframe {
+        height: 650px;
+
+    }
 }
 
 @media (max-width:767px){
