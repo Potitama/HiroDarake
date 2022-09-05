@@ -31,7 +31,7 @@ iframe {
 .movie-title {
     font-family: 'Kaisei Decol', serif;
     font-size: 50px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .contents {
@@ -109,6 +109,17 @@ footer a {
     transform: translateY(200px);
     transition: all 2.5s;
 } 
+
+.fa-user {
+    font-size: 50px;
+    color: rgb(80, 77, 77);
+}
+
+.question-section {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
 
 .mybox-hiro{
 	background-color: #87cefa;  /* 背景色 */
@@ -226,17 +237,19 @@ footer a {
 
 .hiro-img {
     margin-right: 30px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 20px;
 }
 
 .suna-img {
     margin-left: 30px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 20px;
 }
 
 img {
-    border-radius: 20px;
     width: 350px;
     height: 350px;
-    box-shadow: 5px 5px 5px grey;
 }
 
 footer {
@@ -247,6 +260,14 @@ footer {
     font-family:serif;
 }
 
+.movie-title {
+    font-size: 35px;
+}
+
+.birth-title {
+    width: 80%;
+    margin-top: 70px;
+}
 .shape-2008{
     position: relative;
     height: 160px;
