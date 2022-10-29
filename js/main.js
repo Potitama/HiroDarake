@@ -10,6 +10,18 @@ $(window).scroll(function() {
     });
 }); 
 
+$(window).scroll(function() {
+    $('.faderotate').each(function() {
+        var mainHeight = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > mainHeight - windowHeight) {
+            $(this).css('opacity', '1');
+            $(this).css('transform', 'rotateY(0)');
+        }
+    });
+}); 
+
 jQuery(function ($) {
     $('.js-accordion-title').on('click', function () {
       /*クリックでコンテンツを開閉*/

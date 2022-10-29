@@ -6,6 +6,16 @@
     z-index: -1;
 }
 
+#splash {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background:rgb(128, 194, 255);
+    text-align:center;
+    color:rgb(242, 245, 107);
+  }
+
 a {
     text-decoration: none;
 }
@@ -39,6 +49,18 @@ iframe {
     margin: 0 auto;
     text-align: center;
 }
+
+.contents-2 {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #50F2C9;
+}
+
+.contents-3 {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+} 
 
 .main-title {
     font-size: 70px;
@@ -128,7 +150,7 @@ footer a {
 	padding: 30px 20px 20px 20px; /* 内側の余白 上・右・下・左 */
 	position: relative;
     z-index: 0;
-    width: 70%;
+    width: 80%;
     font-family: "M PLUS Rounded 1c";
     color:rgb(255, 255, 255);
     font-size: 25px;
@@ -179,7 +201,7 @@ footer a {
 	padding: 30px 20px 20px 20px; /* 内側の余白 上・右・下・左 */
 	position: relative;
     z-index: 0;
-    width: 70%;
+    width: 80%;
     font-family: "M PLUS Rounded 1c";
     color:rgb(255, 255, 255);
     font-size: 25px;
@@ -353,4 +375,128 @@ footer {
 .link-title {
     margin-top: 0px;
 }
+     
+
+
+
+
+.shape-9106{
+    overflow:hidden;
+    position:relative;
+    height: 300px;
+    }
+    .shape-9106::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 100% 400px;
+    background-position: 50% 100%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="%2350f2c9" d="M0 288l1440-128v160H0z"/><path fill="%2350f2c9" opacity=".66" d="M0 192l1440-96v224H0z"/></svg>'); 
+    }
+    
+    @media (min-width:2100px){
+    .shape-9106::before{
+    background-size: 100% calc(2vw + 400px);
+    }
+    }
+
+    .movie-area-2 {
+        max-width: 1500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .movie-sentens-shall {
+        font-family: 'Kaisei Decol', serif;
+        font-size: 22px;
+        text-align: left;
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .movie-title-shall {
+        font-family: 'Kaisei Decol', serif;
+        color:black;
+        font-size: 35px;
+        margin-top: 0;
+    }
+
+    
+.shape-4505{
+    margin-top: -270px;
+    overflow:hidden;
+    position:relative;
+    height: 300px;
+    }
+    .shape-4505::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 101% 400px;
+    background-position: 50% 100%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="%23ffffff" d="M0 288l1440-128v160H0z"/><path fill="%23ffffff" opacity=".66" d="M0 192l1440-96v224H0z"/></svg>'); 
+    }
+    
+    @media (min-width:2100px){
+    .shape-4505::before{
+    background-size: 101% calc(2vw + 400px);
+    }
+    }
+
+    .movie-2 {
+        margin-bottom: 250px;
+    }
+
+    .movie-4 {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .intro-detail {
+        font-family: "M PLUS Rounded 1c";
+        color:rgb(255, 255, 255);
+        background-color: #29B8FF;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: left;
+        border-style:double;
+        border-width: 15px;
+        margin: 0 auto;
+        font-size: 22px;
+        margin-top: 60px;
+        box-shadow: 5px 5px 5px gray;
+        width: 75%;
+    }
+
+    .detail-section {
+        font-size: 30px;
+        margin-top: 30px;
+        font-weight: bold;
+    }
+    
+    .faderotate {
+        opacity: 0;
+        transform: rotateY(3.142rad);
+        transition: all 4s;
+    }
+
+    .movie-title-2 {
+        margin-top: 0px;
+    } 
+     
+     
+     
      
