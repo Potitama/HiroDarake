@@ -284,6 +284,8 @@ footer {
 
 .movie-title {
     font-size: 35px;
+    border-bottom: black solid 2px;
+    display: inline-block;
 }
 
 .birth-title {
