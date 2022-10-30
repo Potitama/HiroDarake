@@ -31,3 +31,8 @@ jQuery(function ($) {
     });
     
 });
+
+window.setTimeout(function(){
+    var loading = document.getElementById('loading');
+    loading.classList.add('loaded');
+}, 5000);
