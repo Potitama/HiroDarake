@@ -528,7 +528,7 @@ footer {
         -webkit-transform: translateZ(0);
         -ms-transform: translateZ(0);
         transform: translateZ(0);
-        top: 40vh;
+        top: 30vh;
       }
       @-webkit-keyframes load5 {
         0%,
